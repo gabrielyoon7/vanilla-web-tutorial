@@ -12,9 +12,9 @@ app.get('/', function(req, res){
 });
 
 app.get('/bootstrap', function(req, res){
-    res.sendFile(__dirname + '/bootstrap/bootstrap.html');
+    res.sendFile(__dirname + '/src/bootstrap/bootstrap.html');
 });
 
 app.get('/jquery', function(req, res){
-    res.sendFile(__dirname + '/jquery/jquery.html');
+    res.sendFile(__dirname + '/src/jquery/jquery.html');
 });
