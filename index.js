@@ -3,6 +3,9 @@ const app = express();
 
 app.listen(8080,function(){
     console.log('listening on 8080');
+    const open = require('open');
+    open('http://localhost:8080');
+    console.log('http://localhost:8080 페이지를 자동으로 열었습니다.')
 });
 
 // 여기에서 URL을 등록
